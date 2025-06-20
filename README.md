@@ -86,13 +86,6 @@ Ce projet vise à extraire, nettoyer et exposer des profils utilisateurs GitHub 
 ```bash
 python extract_users.py --max-users 500
 ```
-
-Optionnel pour un échantillon aléatoire :
-
-```bash
-python extract_users.py --max-users 500 --no-random --since 20000000
-```
-
 ### 2. Nettoyage et filtrage
 
 ```bash
